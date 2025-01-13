@@ -11,7 +11,7 @@ const connectDB = async () => {
             
     } catch (error) {
         console.log("MongoDB connection error : ", error);
-        process.exit(1)
+        process.exit(1)  // same as throw  error but in mongoess (0 - succesfulll 1-failed 3 set as requeried)
     }
    
 }
