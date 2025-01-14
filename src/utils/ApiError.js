@@ -4,7 +4,7 @@ class ApiError extends Error {
         statusCode,
         message = "message sothing went wrong !!!",
         error = [],
-        statck  =""
+        stack  =""
     )
     {     
         super(message);
